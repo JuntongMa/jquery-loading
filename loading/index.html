@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <div class="btn-show show-load1">Type 1</div>
-    <div class="btn-show show-load2">Type 2</div>
-    <div class="btn-show show-load3">Type 3</div>
-    <div class="btn-show show-load4">Type 4</div>
-    <div class="btn-show show-load5">Type 5</div>
+    <div class="btn-area">
+        <div class="btn-show show-load1">Type 1</div>
+        <div class="btn-show show-load2">Type 2</div>
+        <div class="btn-show show-load3">Type 3</div>
+        <div class="btn-show show-load4">Type 4</div>
+        <div class="btn-show show-load5">Type 5</div>
+        <div class="btn-show show-load6">Type 6</div>
+        <div class="btn-show show-load7">Type 7</div>
+    </div>
     <div class="btn-show hide-show">Hide Load</div>
 </body>
 <script src="./js/jquery-3.4.1.min.js" ></script>
@@ -58,6 +62,18 @@
         loading.showLoading({
             type:5,
             tip:"type 5"
+        })
+    })
+    $('.show-load6').click(()=>{
+        loading.showLoading({
+            type:6,
+            tip:"type 6"
+        })
+    })
+    $('.show-load7').click(()=>{
+        loading.showLoading({
+            type:7,
+            tip:"type 7"
         })
     })
     $('.hide-show').click(()=>{

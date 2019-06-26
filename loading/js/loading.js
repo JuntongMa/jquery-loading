@@ -97,6 +97,28 @@ const loading = {
                 </div>`)
                 load5.appendTo(this._anItem);
                 break;
+            case 6:
+            let load6 = $(`<div class="cube-grid">
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+                <div class="sk-cube"></div>
+            </div>`)
+            load6.appendTo(this._anItem);
+            break;
+            case 7:
+            let load7 = $(`<div class="cross-rotate">
+                <div class="cross-circle cross-circle1"></div>
+                <div class="cross-circle cross-circle2"></div>
+            </div>`)
+            load7.appendTo(this._anItem);
+            break; 
+            
        } 
        this.addEle();
     },
